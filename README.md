@@ -23,7 +23,7 @@ It contains files that build the dataset of paper-slide pairs from [BookSum](htt
 It contains PKL files of paper-slide pairs for novels of BookSum. There is a total of 20 books with an overall chapter count of 201.
 
 ### Data
-This folder contains PKL files of paper-slide pairs downloaded from the [DOC2PPT repository](https://drive.google.com/drive/folders/1s2zJ04WZYifZhotRCXpk4OGtCHWXuM0b) for academic papers of the original DOC2PPT dataset. 
+This folder contains PKL files of paper-slide pairs downloaded from the [DOC2PPT code repository](https://drive.google.com/drive/folders/1s2zJ04WZYifZhotRCXpk4OGtCHWXuM0b) for academic papers of the original DOC2PPT dataset. 
 
 **NOTE: Due to the large size of the PKL files, only `record_human.pkl` is retained in this repository for evaluation. The remaining files can be downloaded from `data_processed.tar.gz` via the link provided and should be stored in the `v1.0` subfolder.**
 
@@ -45,7 +45,7 @@ It also contains the following documents:
 ### Models
 This folder contains the final models for each training variation from fine-tuning the Progress Tracker, training the Object Placer with the academic papers (Experiment 1), and training/fine-tuning the Object Placer with the novels (Experiment 2). 
 
-It also contains `model_hse-tf.pt` which is from [DOC2PPT code repository](https://doc2ppt.github.io/). It is the pretrained weights of the original Progress Tracker.
+It also contains `model_hse-tf.pt` which is from [DOC2PPT code repository](https://drive.google.com/drive/folders/1s2zJ04WZYifZhotRCXpk4OGtCHWXuM0b). It is the pretrained weights of the original Progress Tracker.
 
 ### Generated_test_slides
 This folder contains generated slide decks for three randomly chosen novel chapters. Each chapter has two slide decks: 
