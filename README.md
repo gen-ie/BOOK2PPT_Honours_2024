@@ -25,9 +25,9 @@ It contains PKL files of paper-slide pairs for novels of BookSum. There is a tot
 ### Data
 This folder contains PKL files of paper-slide pairs downloaded from the [DOC2PPT repository](https://drive.google.com/drive/folders/1s2zJ04WZYifZhotRCXpk4OGtCHWXuM0b) for academic papers of the original DOC2PPT dataset. 
 
-**NOTE: Due to the size of the PKL files, only `record_human.pkl` is kept in this repository for evaluation.**
+**NOTE: Due to the large size of the PKL files, only `record_human.pkl` is retained in this repository for evaluation. The remaining files can be downloaded from `data_processed.tar.gz` via the link provided and should be stored in the `v1.0` subfolder.**
 
-Furthermore, it contains json files used to split up both the original dataset and BookSum dataset into training, validation, and testing sets:
+Furthermore, it contains json files in subfolder `v1.0` used to split up both the original dataset and BookSum dataset into training, validation, and testing sets:
 - `train_val_test`: This is the original partitions for DOC2PPT papers.
 - `train_val_test_2`: Similar to the first json file, but only papers from 14 conferences out of 19 are included. 
 - `book`: This is a generated json file for partitions of novel chapters. Distribution of chapters are randomised.
@@ -52,8 +52,6 @@ This folder contains generated slide decks for three randomly chosen novel chapt
 - Slide deck with AnimateDiff-generated visuals
 - Slide deck with StableDiff-generated visuals
 
-Futhermore, this folder also stores individual component information of these slide decks for evaluation. Components include:
-- Generated visuals for each slide deck
-- Slide text extracted from each deck
+Futhermore, this folder also stores additional information about these slide decks. They include:
 - Records for number of slides dedicated for each section for each deck
 - Prompts used for visual generation
