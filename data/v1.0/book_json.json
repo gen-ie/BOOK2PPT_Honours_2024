@@ -1,0 +1,21 @@
+{
+    "A Christmas Carol": {"train": [3, 2, 4, 1], "val": [0], "test": []}, 
+    "A Tale of Two Cities.book 1": {"train": [0, 3, 1, 4], "val": [5], "test": [2]}, 
+    "A Tale of Two Cities.book 2": {"train": [12, 19, 6, 10, 1, 4, 9, 20, 7, 18, 23, 11, 14, 22, 0, 16, 13, 5, 21], "val": [15, 8, 2], "test": [3, 17]}, 
+    "A Tale of Two Cities.book 3": {"train": [5, 7, 3, 2, 0, 1], "val": [6], "test": [4]}, 
+    "Candide": {"train": [3, 0, 2, 4], "val": [1], "test": []}, 
+    "Frankenstein.volume 1": {"train": [1, 7, 3, 6, 0, 4], "val": [5], "test": [2]}, 
+    "Frankenstein.volume 2": {"train": [0, 4, 6, 2, 1, 7], "val": [5], "test": [3]}, 
+    "Frankenstein.volume 3": {"train": [3, 4, 1, 2, 0], "val": [6], "test": [5]}, 
+    "Little Women.part 1": {"train": [11, 0, 10, 9, 14, 19, 4, 3, 20, 8, 13, 7, 16, 1, 12, 2, 6, 22], "val": [17, 18, 15], "test": [5, 21]}, 
+    "Little Women.part 2": {"train": [18, 14, 0, 19, 22, 5, 3, 11, 13, 12, 2, 15, 1, 17, 7, 20, 6, 4, 9], "val": [8, 16, 23], "test": [10, 21]}, 
+    "The Goose Girl": {"train": [11, 10, 13, 15, 2, 17, 1, 16, 12, 3, 7, 14, 19, 4, 6, 0], "val": [9, 18, 8], "test": [5]}, 
+    "The Hound of the Baskervilles": {"train": [0, 1, 2, 7, 3, 4], "val": [5], "test": [6]}, 
+    "The Turn of the Screw": {"train": [11, 2, 15, 5, 10, 3, 1, 6, 0, 12, 14, 9], "val": [13, 7], "test": [4, 8]}, 
+    "Treasure Island.part 1": {"train": [], "val": [0], "test": []}, 
+    "Treasure Island.part 3": {"train": [], "val": [0], "test": []}, 
+    "Treasure Island.part 4": {"train": [], "val": [0], "test": []}, 
+    "Treasure Island.part 5": {"train": [], "val": [0], "test": []}, 
+    "Treasure Island.part 6": {"train": [], "val": [0], "test": []}, 
+    "Wuthering Heights": {"train": [11, 17, 26, 16, 32, 25, 30, 20, 7, 4, 8, 33, 1, 19, 31, 24, 5, 3, 15, 9, 14, 13, 10, 23, 2, 6, 12], "val": [28, 21, 27, 18], "test": [29, 0, 22]}
+}
