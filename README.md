@@ -37,6 +37,7 @@ This folder contains scripts used for training experimentations. It contains the
 - `transfer_learning_progress_tracker`: They contain training scripts for fine-tuning the Progress Tracker on the BookSum dataset.
 - `obj_placer_experiment_1`: They contain training scripts for training the Object Placer with the original dataset (academic papers).
 - `obj_placer_experiment_2`: They contain training scripts for training and fine-tuning the Object Placer with the BookSum dataset (novels).
+- `learning_curves`: They contain log files of training and validation losses for the each training script.
 
 It also contains the following documents:
 - `main`: This is the provided Progress Tracker training code from the [DOC2PPT paper](https://doc2ppt.github.io/)
