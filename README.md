@@ -2,11 +2,11 @@
 BOOK2PPT is a slide generation system that specialises in storybook slide generation. It is an extension of [DOC2PPT](https://doc2ppt.github.io/) which utilises hierarchical sequential model architectures to extract relevant information from source papers to produce generated slide decks. 
 
 BOOK2PPT is developed using three main Jupyter notebooks:
-1. `training_experiments`: It used for training experiments for Progress Tracker and Object Placer.
+1. `training_experiments`: It used for training experiments for Progress Tracker and Object Placer (with learning curves).
 2. `generating_stories`: It used for generating the dataset of paper-slide pairs of BookSum, test slide deck generations with visual generators, and evaluating pipeline variations.
 3. `component evaluation`: It used for evaluating text quality and visual relevance; also used for processing results of human surveys.
 
-Required Python libraries are listed in `requirements.txt`. Python version `3.9.19` has been used for this development.
+Required Python libraries are listed in `requirements.txt`. Python version `3.9.19` has been used for this development. Install the libraries using: `pip install -r  requirements.txt`
 
 Alongside these Jupyter notebooks are code files that consist of the Progress tracker and Object Placer architecture:
 1. `dataset`: This is code file helps load the dataset to the Progress Tracker model
